@@ -1,0 +1,19 @@
+services:
+  expressjs_service_1:
+    build: .
+    environment:
+      - APP_NAME=expressjs_service_1
+    ports:
+      - "3001:3000"
+  expressjs_service_2:
+    build: .
+    environment:
+      - APP_NAME=expressjs_service_2
+    ports:
+      - "3002:3000"
+  expressjs_service_3:
+    build: .
+    environment:
+      - APP_NAME=expressjs_service_3
+    ports:
+      - "3003:3000"
