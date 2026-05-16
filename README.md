@@ -8,8 +8,8 @@ I made this following a tutorial [from this youtube video](https://www.youtube.c
 
 ```text
 .
-|-- docker-compose.yaml............This file runs multiple container images
-|-- dockerfile.....................This file specifies the 3 instances of the HTTP serever
+|-- docker-compose.yaml............This file specifies 3 instances of the image
+|-- dockerfile.....................This file specifies what a single image is/does
 |-- package.json...................This is the npm config file
 |-- pnpm-lock.yaml.................This is for node too
 |-- README.md......................This is the file you're reading right now
